@@ -1,0 +1,31 @@
+.navbar {
+  background-color: rgb(168, 61, 255);
+  overflow: hidden;
+  margin: 1em, 2.5em, 2.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.navbar a {
+  color: cornsilk;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.navbar a.loginLogout {
+  float: right;
+}
+
+.navbar a.navbarItem {
+  float: left;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.navbar a.active {
+  background-color: crimson;
+  color: whitesmoke;
+}
